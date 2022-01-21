@@ -1,0 +1,40 @@
+#navigation{
+   background-color: #f7f7f7;
+   text-align: center;
+   font-family: Sofia;
+   font-size: 24px;
+   box-shadow: 0px 0px 20px #5c5757;
+}
+.detail{
+   text-align: center;
+   margin-top: 2%;
+   margin-bottom: 2%;
+}
+.font-word {
+   font-family: Sofia;
+}
+
+
+.div{
+   margin-top: 2%;
+   margin-bottom: 2%;
+}
+
+@media (min-width: 768px) {
+   #navigation{
+      margin-top: 3%;
+      border-radius: 10px 10px 0px 0px;
+   }
+}
+
+@media (max-width: 767px) {
+   #navigation{
+      background-color: white;
+      box-shadow: none;
+   }
+   .nav-item{
+      margin: 2%;
+      background-color: #efefef;
+      border-radius: 10px;
+   }
+}
