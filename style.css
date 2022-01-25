@@ -4,6 +4,7 @@
    font-family: Sofia;
    font-size: 24px;
    box-shadow: 0px 0px 20px #5c5757;
+   
 }
 .detail{
    text-align: center;
@@ -22,7 +23,7 @@
 
 @media (min-width: 768px) {
    #navigation{
-      margin-top: 3%;
+      margin-top: 1%;
       border-radius: 10px 10px 0px 0px;
    }
 }
@@ -31,10 +32,20 @@
    #navigation{
       background-color: white;
       box-shadow: none;
+      margin-top: 0px;
    }
-   .nav-item{
+   ul li{
       margin: 2%;
       background-color: #efefef;
       border-radius: 10px;
+   }
+   ul:first-child{
+      margin-top: 0px;
+   }
+}
+
+@media (max-width: 574px) {
+   ul li {
+      border-radius: 0px;
    }
 }
