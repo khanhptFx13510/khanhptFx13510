@@ -1,0 +1,4 @@
+Sitemap: https://khanhptfx13510.github.io/khanhptFx13510/sitemap.xml
+
+User-agent: *
+Disallow:
